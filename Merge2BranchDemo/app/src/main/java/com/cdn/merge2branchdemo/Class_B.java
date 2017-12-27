@@ -12,6 +12,8 @@ public class Class_B {
 
     public static void showMsg(Context context){
         Toast.makeText(context, "Hello World from Class B", Toast.LENGTH_SHORT).show();
+        //made this change to check if git-merge proper works
+        Toast.makeText(context, "Toast after merge", Toast.LENGTH_SHORT).show();
     }
 
 }
